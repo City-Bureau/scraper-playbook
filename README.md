@@ -1,8 +1,8 @@
 # Scraper Playbook
 
-A practical, evidence-conscious cookbook for Code the Dream engineers using coding agents to build and repair City Scrapers.
+Clear, practical guidance for Code the Dream engineers using coding agents to build and repair City Scrapers.
 
-The playbook keeps ownership with Code the Dream: agents can help investigate, draft, test, and collect evidence, while CtD engineers own scope, review, merge, deployment, and production validation.
+Code the Dream owns the work. Coding agents can help investigate, draft, test, and collect evidence, while CtD engineers own scope, review, merge, deployment, and production validation.
 
 ## Read the playbook
 
@@ -20,8 +20,8 @@ This is an initial playbook prepared for a CtD-owned pilot. Proposed guidance sh
 
 ## Contributing
 
-Code the Dream engineers are invited to adapt and maintain this playbook as part of the work. Open a focused pull request that explains the task or evidence behind the change, its intended scope, and how reviewers can verify it. Repository-specific instructions remain the source of truth when they differ from this shared guidance.
+Code the Dream engineers can adapt and maintain this playbook as the work evolves. Open a focused pull request that explains what prompted the change, where it applies, and how reviewers can verify it. Repository-specific instructions remain the source of truth when they differ from this shared guidance.
 
 ## Safety
 
-Do not commit credentials, tokens, cookies, personal data, raw private session transcripts, or internal repository details. Public-source evidence and concise sanitized case records are preferred.
+Do not commit credentials, tokens, cookies, personal data, raw private session transcripts, or internal repository details. Prefer public-source evidence and short case records with sensitive details removed.

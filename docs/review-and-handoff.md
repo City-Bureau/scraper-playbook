@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Review is where agent speed becomes safe team output. The goal is not to approve a plausible diff; it is to determine whether the change restores or creates reliable meeting availability without hiding a new failure.
+Review checks that agent-assisted work is safe and useful. The goal is not to approve a plausible diff; it is to determine whether the change restores or creates reliable meeting availability without hiding a new failure.
 
 CtD owns the review and merge decision. PDW may help CtD improve tools, prompts, or shared guidance, but does not replace CtD as delivery owner.
 
@@ -117,7 +117,7 @@ A skill is not model training and should not silently change itself. A proposed 
 
 ## Pull Request and Handoff Package
 
-Use the template in [Templates](/scraper-playbook/templates.html). At minimum, include:
+Use the template in [Templates](templates.md). At minimum, include:
 
 - user problem and task boundary;
 - authoritative source and evidence ledger;

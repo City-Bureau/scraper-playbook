@@ -4,7 +4,7 @@
 
 ## The Goal
 
-At minute 30, you should not have a clever patch. You should have a bounded task, a runnable environment, a clear source of truth, and a written plan that another person can challenge.
+The goal is not to produce a patch immediately. By minute 30, you should have a clearly scoped task, a working environment, a clear source of truth, and a written plan another person can review.
 
 ## Minutes 0–5: Name the User Outcome
 
@@ -105,4 +105,4 @@ For a repair, require the cause in `file:line` terms and require the regression 
 - [ ] Change boundaries and stop conditions are written.
 - [ ] A CtD reviewer and production-validation owner are named.
 
-Next: [Build Workflow](/scraper-playbook/build-workflow.html) or [Repair Workflow](/scraper-playbook/repair-workflow.html).
+Next: [Build Workflow](build-workflow.md) or [Repair Workflow](repair-workflow.md).

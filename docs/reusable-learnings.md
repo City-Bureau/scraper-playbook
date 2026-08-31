@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Every build or repair should make the next relevant task easier without turning one source-specific incident into a universal rule. The learning system is a governed feedback loop:
+Every build or repair should make the next relevant task easier without turning one source-specific incident into a universal rule. The learning system uses a visible, reviewable loop:
 
 > capture → review → make available → retrieve → verify in the new context → correct or retire
 

@@ -4,32 +4,32 @@
 
 ## Start Here
 
-This is a living, Markdown-first guide for Code the Dream (CtD) engineers using coding agents to build and repair City Scrapers. It is designed to be read by people and agents and maintained here through normal pull requests.
+This is a shared guide for Code the Dream (CtD) engineers using coding agents to build and repair City Scrapers. People and coding agents can use it, and the team can update it through normal pull requests.
 
-**Ownership model:** CtD owns scraper builds, repairs, review decisions, and handoff. Public Data Works (PDW) can help CtD adopt and improve agent-assisted practices when useful; that support happens inside CtD's workflow and does not create a competing delivery channel.
+**Ownership:** CtD owns scraper builds, repairs, review decisions, and handoff. Public Data Works (PDW) can help CtD adopt and improve agent-assisted practices when useful. That support stays within CtD's workflow rather than moving delivery to a separate PDW team.
 
-If this is your first session, open [First 30 Minutes](/scraper-playbook/first-30-minutes.html).
+To start a work session, open [First 30 Minutes](first-30-minutes.md).
 
-## What This Cookbook Is For
+## What This Playbook Covers
 
 - Turn a meeting-data need into a reviewable scraper change.
-- Use an agent for the repetitive middle without outsourcing judgment.
+- Use an agent for repeatable tasks while engineers keep decision-making responsibility.
 - Check the user outcome: complete, correct, current meetings attached to the right agency.
-- Make failures visible instead of allowing a green-looking empty run.
+- Make empty or stale results visible even when a run reports success.
 - Preserve useful learnings so the next task starts with relevant evidence.
 
-It is **not** a promise that agents make scraper work faster. The source evidence includes one completed agent-assisted incident, but not a CtD Scrapy build or a throughput baseline. Treat this cookbook as a practical starting point to test and improve with CtD.
+This playbook does **not** promise that agents make scraper work faster. We have evidence from one completed agent-assisted repair, but not from a CtD Scrapy build and not enough data to compare speed or cost. Treat the guidance as a starting point to test and improve through CtD's work.
 
 ## Choose Your Path
 
 | If you need to… | Go to… | Finish with… |
 | --- | --- | --- |
-| Start safely and understand the workflow | [First 30 Minutes](/scraper-playbook/first-30-minutes.html) | A bounded task, working environment, and written source-of-truth plan |
-| Build a new spider | [Build Workflow](/scraper-playbook/build-workflow.html) | A live-checked spider, fixture tests, validation evidence, and draft PR |
-| Diagnose or repair a spider | [Repair Workflow](/scraper-playbook/repair-workflow.html) | Reproduced failure, smallest safe fix, red-then-green regression test, and production validation plan |
-| Review or hand work to another person | [Review and Handoff](/scraper-playbook/review-and-handoff.html) | An adversarial review record and an evidence-rich handoff |
-| Capture something the next task should reuse | [Reusable Learnings](/scraper-playbook/reusable-learnings.html) | A provenance-linked, reviewable learning that engineering controls |
-| Copy a checklist or record | [Templates](/scraper-playbook/templates.html) | A scraper contract, repair record, learning record, or handoff template |
+| Start safely and understand the workflow | [First 30 Minutes](first-30-minutes.md) | A clearly scoped task, working environment, and written source-of-truth plan |
+| Build a new spider | [Build Workflow](build-workflow.md) | A live-checked spider, fixture tests, validation evidence, and draft PR |
+| Diagnose or repair a spider | [Repair Workflow](repair-workflow.md) | Reproduced failure, smallest safe fix, red-then-green regression test, and production validation plan |
+| Review or hand work to another person | [Review and Handoff](review-and-handoff.md) | A challenging review and an evidence-rich handoff |
+| Capture something the next task should reuse | [Reusable Learnings](reusable-learnings.md) | A source-linked, reviewable learning that engineering controls |
+| Copy a checklist or record | [Templates](templates.md) | A scraper contract, repair record, learning record, or handoff template |
 
 ## The Shared Workflow
 

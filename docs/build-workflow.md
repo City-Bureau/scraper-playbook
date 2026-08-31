@@ -6,11 +6,11 @@
 
 A build is implementation-ready when the expected meetings are complete, correct, current, traceable to a public source, and ready to move through the repository's normal review and deployment path. The task closes only after production delivery is confirmed or a named follow-up owns that confirmation. Generated code, a fixture, green tests, or a merged PR are intermediate outputs—not the user outcome.
 
-This workflow is **proposed** for CtD. Its parts come from current City Scrapers conventions and one agent-assisted repair incident, but the source set does not include a completed CtD agent-assisted build.
+This workflow is **proposed** for CtD. It draws on current City Scrapers conventions and one agent-assisted repair, but we do not yet have evidence from a completed CtD agent-assisted build.
 
 ## 1. Write the Scraper Contract
 
-Before implementation, create a one-page contract using [Templates](/scraper-playbook/templates.html). It should answer:
+Before implementation, create a one-page contract using [Templates](templates.md). It should answer:
 
 - Which public meeting body is in scope?
 - Which source is authoritative for dates, times, cancellations, location, and documents?
@@ -143,7 +143,7 @@ Record the comparison; “looks good” is not reviewable evidence.
 
 ## 8. Review and Handoff
 
-Use [Review and Handoff](/scraper-playbook/review-and-handoff.html). The pull request or handoff should include:
+Use [Review and Handoff](review-and-handoff.md). The pull request or handoff should include:
 
 - source and scope;
 - the scraper contract;
@@ -154,7 +154,7 @@ Use [Review and Handoff](/scraper-playbook/review-and-handoff.html). The pull re
 - known limitations and monitoring assumptions; and
 - owner of post-deploy confirmation.
 
-After deployment, confirm that meetings appear under the correct agency in the production database or public product. Then capture reusable evidence with [Reusable Learnings](/scraper-playbook/reusable-learnings.html).
+After deployment, confirm that meetings appear under the correct agency in the production database or public product. Then capture reusable evidence with [Reusable Learnings](reusable-learnings.md).
 
 ## Local Reference Artifacts — Verify Before Use
 

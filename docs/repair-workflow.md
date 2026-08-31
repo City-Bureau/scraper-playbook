@@ -140,7 +140,7 @@ Complete the repair record and handoff:
 - owner and monitoring follow-up; and
 - reusable learning candidate.
 
-Use [Templates](/scraper-playbook/templates.html) and [Reusable Learnings](/scraper-playbook/reusable-learnings.html).
+Use [Templates](templates.md) and [Reusable Learnings](reusable-learnings.md).
 
 ## Tests Are Not Monitoring
 
