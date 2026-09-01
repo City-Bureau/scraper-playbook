@@ -1,6 +1,6 @@
 # CtD Scraper Agent — Review and Handoff
 
-[Playbook home](../README.md) · [First 30 Minutes](first-30-minutes.md) · [Build](build-workflow.md) · [Repair](repair-workflow.md) · [Review](review-and-handoff.md) · [Learnings](reusable-learnings.md) · [Templates](templates.md)
+[Playbook home](../README.md) · [First 30 Minutes](first-30-minutes.md) · [Build](build-workflow.md) · [Repair](repair-workflow.md) · [Review](review-and-handoff.md) · [Learnings](reusable-learnings.md) · [Skills](workflow-skills.md) · [Templates](templates.md)
 
 ## Purpose
 
@@ -86,6 +86,8 @@ Do not apply a finding merely because several agents repeat it. They may share t
 ## Shared `SKILL.md` Guidance
 
 A `SKILL.md` can make a repeatable workflow discoverable to humans and agents. Treat it as reviewed operational guidance.
+
+See [Workflow Skills](workflow-skills.md) for a worked example and the copyable diagnosis and repair skills.
 
 ### Put in a shared skill
 

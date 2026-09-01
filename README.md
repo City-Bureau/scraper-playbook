@@ -12,7 +12,16 @@ Code the Dream owns the work. Coding agents can help investigate, draft, test, a
 - [Repair Workflow](docs/repair-workflow.md)
 - [Review and Handoff](docs/review-and-handoff.md)
 - [Reusable Learnings](docs/reusable-learnings.md)
+- [Workflow Skills](docs/workflow-skills.md)
 - [Copyable Templates](docs/templates.md)
+
+## Copyable Skills
+
+- [`diagnose-scraper-alert`](skills/diagnose-scraper-alert/SKILL.md): investigate an alert and draft a diagnosis and estimate for engineer review.
+- [`record-scraper-diagnosis`](skills/record-scraper-diagnosis/SKILL.md): save an accepted diagnosis without duplicating the same active failure.
+- [`repair-scraper-issue`](skills/repair-scraper-issue/SKILL.md): take an approved issue through reproduction, repair, review, pull request, and production-validation handoff.
+
+See [Workflow Skills](docs/workflow-skills.md) for the design choices behind these examples and how routines, connectors, durable records, and skills fit together.
 
 ## Status
 

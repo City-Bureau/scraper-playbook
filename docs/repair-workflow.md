@@ -1,6 +1,6 @@
 # CtD Scraper Agent — Repair Workflow
 
-[Playbook home](../README.md) · [First 30 Minutes](first-30-minutes.md) · [Build](build-workflow.md) · [Repair](repair-workflow.md) · [Review](review-and-handoff.md) · [Learnings](reusable-learnings.md) · [Templates](templates.md)
+[Playbook home](../README.md) · [First 30 Minutes](first-30-minutes.md) · [Build](build-workflow.md) · [Repair](repair-workflow.md) · [Review](review-and-handoff.md) · [Learnings](reusable-learnings.md) · [Skills](workflow-skills.md) · [Templates](templates.md)
 
 ## Outcome
 
@@ -18,6 +18,18 @@ Every repair should leave evidence for six questions:
 4. **End-to-end verification:** Are meetings complete, correct, current, and attached to the right agency?
 5. **Operational ownership:** Who reviews, deploys, confirms recovery, and watches for recurrence?
 6. **Reusable learnings:** What should future work retrieve, and where can engineering control it?
+
+## From Alert to Tracked Work
+
+An alert or digest is a signal, not the durable work record. Before implementation:
+
+1. preserve its human-readable symptom, user impact, source links, and observed time;
+2. use [`diagnose-scraper-alert`](../skills/diagnose-scraper-alert/SKILL.md) to check the live source, run evidence, code, and product output;
+3. have an engineer review the preliminary cause and effort range;
+4. use [`record-scraper-diagnosis`](../skills/record-scraper-diagnosis/SKILL.md) to search active work for the same repository, spider, and failure class; and
+5. create or update one durable item with the evidence, owner, status, and next action.
+
+Repeated alerts should update the existing item when they represent the same unresolved failure. A materially different failure needs its own record. The repair begins from an approved tracked item using [`repair-scraper-issue`](../skills/repair-scraper-issue/SKILL.md), not from a Slack thread that may become hard to find.
 
 ## 1. Preserve the Failure Signal
 

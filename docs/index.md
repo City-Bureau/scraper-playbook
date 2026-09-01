@@ -1,6 +1,6 @@
 # Code the Dream Scraper-Agent Cookbook
 
-[Playbook home](../README.md) · [First 30 Minutes](first-30-minutes.md) · [Build](build-workflow.md) · [Repair](repair-workflow.md) · [Review](review-and-handoff.md) · [Learnings](reusable-learnings.md) · [Templates](templates.md)
+[Playbook home](../README.md) · [First 30 Minutes](first-30-minutes.md) · [Build](build-workflow.md) · [Repair](repair-workflow.md) · [Review](review-and-handoff.md) · [Learnings](reusable-learnings.md) · [Skills](workflow-skills.md) · [Templates](templates.md)
 
 ## Start Here
 
@@ -29,6 +29,7 @@ This playbook does **not** promise that agents make scraper work faster. We have
 | Diagnose or repair a spider | [Repair Workflow](repair-workflow.md) | Reproduced failure, smallest safe fix, red-then-green regression test, and production validation plan |
 | Review or hand work to another person | [Review and Handoff](review-and-handoff.md) | A challenging review and an evidence-rich handoff |
 | Capture something the next task should reuse | [Reusable Learnings](reusable-learnings.md) | A source-linked, reviewable learning that engineering controls |
+| Turn alerts into tracked, agent-assisted work | [Workflow Skills](workflow-skills.md) | A reviewed diagnosis record or a tested repair handoff |
 | Copy a checklist or record | [Templates](templates.md) | A scraper contract, repair record, learning record, or handoff template |
 
 ## The Shared Workflow
